@@ -14,6 +14,12 @@
 
 The main goal of this project is to make a clone of world's largest e-commerce shopping website i.e. [Amazon](https://www.amazon.in/) using `next.js`.
 
+## Tech Stack
+
+- **Next.js:** Next.js is a JavaScript framework that enables you to build superfast and extremely user-friendly static websites, as well as web applications using React.
+
+- **Tailwind Css:** Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces.
+
 ## Run Locally
 
 To develop locally:
@@ -40,7 +46,7 @@ To develop locally:
 
 ```bash
   npm install
-  or 
+  or
   npm i
 ```
 
@@ -49,7 +55,6 @@ To develop locally:
 ```bash
   npm run dev
 ```
-
 
 ## Contributing
 
@@ -61,13 +66,10 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
-
 ## Authors
 
 - Harshdeep Singh - [@JunDevHarsh](https://www.github.com/JunDevHarsh)
 
-
 ## License
 
 [MIT](https://github.com/JunDevHarsh/amazon-clone/blob/main/LICENSE)
-
