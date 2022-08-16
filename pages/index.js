@@ -1,10 +1,11 @@
 import Head from "next/head";
+import Header from "../components/Header/Header";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Online Shoping Website | Amazon Clone</title>
+        <title>Online Shopping Website | Amazon Clone</title>
         <meta
           name="description"
           content="Amazon-clone: The goal of this project is to make a clone of the world's largest e-commerce website i.e. Amazon.in by using next-js."
@@ -19,6 +20,7 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="/assets/amazon-icon.webp" />
       </Head>
+      <Header />
     </div>
   );
 }

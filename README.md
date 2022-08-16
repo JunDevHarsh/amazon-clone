@@ -20,6 +20,8 @@ The main goal of this project is to make a clone of world's largest e-commerce s
 
 - **Tailwind Css:** Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces.
 
+- **React-icons:** React-icons is a small library that helps us add icons (from all different icon libraries) to your React apps.
+
 ## Run Locally
 
 To develop locally:
