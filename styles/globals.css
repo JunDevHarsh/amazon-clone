@@ -36,3 +36,19 @@ input::-webkit-inner-spin-button {
     background: black;
   }
 }
+
+/* Style where it is used -> ./components/Header/LanguageTab.js */
+
+.dropdown-btn:hover > .dropdown-content {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.language-item:hover .language-item-dot {
+  opacity: 1;
+}
+
+.language-item:hover p {
+  text-decoration: underline;
+  color: #e47911;
+}

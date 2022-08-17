@@ -1,5 +1,6 @@
 import { useState } from "react";
 import AddressTab from "./AddressTab";
+import LanguageTab from "./LanguageTab";
 import LocationModal from "./LocationModal";
 import Logo from "./Logo";
 import SearchBar from "./SearchBar";
@@ -19,6 +20,7 @@ function Header() {
         closeModal={setShowLocationModal}
       />
       <SearchBar />
+      <LanguageTab />
     </div>
   );
 }
