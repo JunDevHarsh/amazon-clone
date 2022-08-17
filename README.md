@@ -68,6 +68,18 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
+### Steps to contribute
+
+- Step 1: Fork the repository
+- Step 2: Clone the repository
+- Step 3: Create a new branch
+- Step 4: There are two possibilities you can follow
+  - Create or make new components for the project
+  - Find bugs or improve the issues
+- Step 5: Commit your changes
+- Step 6: Push your changes to Github
+- Step 7: Submit a PR
+
 ## Authors
 
 - Harshdeep Singh - [@JunDevHarsh](https://www.github.com/JunDevHarsh)

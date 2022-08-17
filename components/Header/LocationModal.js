@@ -6,7 +6,7 @@ const LocationModal = ({ showModal, closeModal }) => {
   };
 
   const focusOut = () => {
-    closeModal(false);
+    closeModal((showModal) => !showModal);
   };
 
   return (

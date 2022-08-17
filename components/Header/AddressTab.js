@@ -1,8 +1,8 @@
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
-const AddressTab = ({ openModal }) => {
+const AddressTab = ({ modalStatus, openModal }) => {
   const handleOpenLocationModal = () => {
-    openModal(true);
+    openModal((modalStatus) => !modalStatus);
   };
   return (
     <div
