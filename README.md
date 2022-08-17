@@ -14,6 +14,14 @@
 
 The main goal of this project is to make a clone of world's largest e-commerce shopping website i.e. [Amazon](https://www.amazon.in/) using `next.js`.
 
+## Deployment
+
+Checkout: [Amazon-clone](https://amazon-clone-dev.netlify.app/)
+
+- **Netlify** - The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web.
+
+> Note: The project is not fully developed. But still you can see the final demo of this project.
+
 ## Tech Stack
 
 - **Next.js:** Next.js is a JavaScript framework that enables you to build superfast and extremely user-friendly static websites, as well as web applications using React.
