@@ -45,8 +45,10 @@ const SearchBar = () => {
           onBlur={() => setSearchBarFocus((searchBarFocus) => !searchBarFocus)}
         />
       </div>
-      <div className="ml-auto rounded-tr-md rounded-br-md relative w-12 h-10 flex items-center justify-center cursor-pointer bg-[#febd69] hover:bg-[#f3a847] ">
-        <BsSearch className="text-black" />
+      <div className="ml-auto rounded-tr-md rounded-br-md relative w-12 h-10 flex items-center justify-center cursor-pointer bg-[#febd69] hover:bg-[#f3a847] focus-within:shadow-amazon-box-shadow">
+        <button type="button" className="w-full h-full">
+          <BsSearch className="text-black  w-full h-full p-3" />
+        </button>
       </div>
     </div>
   );

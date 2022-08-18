@@ -1,9 +1,13 @@
 import { useState } from "react";
-import AddressTab from "./AddressTab";
-import LanguageTab from "./LanguageTab";
-import LocationModal from "./LocationModal";
-import Logo from "./Logo";
-import SearchBar from "./SearchBar";
+import {
+  Logo,
+  AddressTab,
+  LocationModal,
+  SearchBar,
+  LanguageTab,
+  UserLogin,
+  Cart,
+} from "./index";
 
 function Header() {
   const [showLocationModal, setShowLocationModal] = useState(false);
@@ -21,6 +25,14 @@ function Header() {
       />
       <SearchBar />
       <LanguageTab />
+      <UserLogin />
+      <div className="flex flex-col items-start border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[1px] px-2 cursor-pointer">
+        <p className="font-normal text-sm text-white">Returns</p>
+        <p className="font-medium text-base- text-white tracking-wider -mt-1">
+          &#38; Orders
+        </p>
+      </div>
+      <Cart />
     </div>
   );
 }
