@@ -13,7 +13,7 @@ const AddressTab = ({ modalStatus, openModal }) => {
         Hello
       </p>
       <div className="flex items-center">
-        <HiOutlineLocationMarker />
+        <HiOutlineLocationMarker className="text-white" />
         <span className="text-white text-sm font-semibold tracking-wider">
           Choose Address
         </span>
