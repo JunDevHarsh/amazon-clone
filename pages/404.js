@@ -32,13 +32,13 @@ const NotFound = () => {
               Looking for something?
             </h3>
             <p className="font-normal text-base tracking-wider">
-              We're sorry. The Web address you entered is not a functioning page
-              on our site.
+              We&#39;re sorry. The Web address you entered is not a functioning
+              page on our site.
             </p>
             <div className="flex items-center mt-2">
               <IoMdArrowDropright className="text-[#e47911] text-lg" />
               <p className="font-semibold text-base tracking-wider">
-                Go to amazon-clone-dev.netlify.app's{" "}
+                Go to amazon-clone-dev.netlify.app&#39;s{" "}
                 <Link href={"/"}>
                   <a className="underline text-blue-400 tracking-wider">Home</a>
                 </Link>{" "}
