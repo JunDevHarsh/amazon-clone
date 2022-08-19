@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header/Header";
+import MenuBar from "../components/MenuBar/MenuBar";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <link rel="icon" href="/assets/amazon-icon.webp" />
       </Head>
       <Header />
+      <MenuBar />
     </div>
   );
 };
