@@ -42,3 +42,9 @@ input::-webkit-inner-spin-button {
   text-decoration: underline;
   color: #e47911;
 }
+
+/* sytle where it is used -> ./components/MenuBar/HamburgerMenu.js */
+
+.parent-forward-icon:hover > .forward-icon {
+  color: #111;
+}
