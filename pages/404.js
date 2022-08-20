@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { IoMdArrowDropright } from "react-icons/io";
-import AmazonLogo from "../public/assets/amazon-logo.svg";
+import AmazonLogo from "../public/logo/amazon-logo.svg";
 
 const NotFound = () => {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CartIcon from "../../public/assets/cart-icon.svg";
+import CartIcon from "../../public/icons/cart-icon.svg";
 
 const Cart = () => {
   return (

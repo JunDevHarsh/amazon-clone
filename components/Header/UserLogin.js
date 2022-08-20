@@ -1,16 +1,20 @@
 import Link from "next/link";
 import { IoMdArrowDropdown } from "react-icons/io";
 
-const UserLogin = () => {
+const UserLogin = ({ background, setBackground }) => {
   const accountMenu = ["Your Account", "Your Orders", "Your Save items"];
   return (
-    <div className="relative border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[2px] px-2 flex flex-col items-center cursor-pointer dropdown-btn">
+    <div
+      onMouseEnter={() => setBackground((background) => !background)}
+      onMouseLeave={() => setBackground((background) => !background)}
+      className="relative border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[2px] px-2 flex flex-col items-center cursor-pointer dropdown-btn"
+    >
       <p className="text-white font-normal text-sm">Hello, Sign In</p>
       <div className="flex items-center">
         <p className="text-white font-medium text-sm">Account</p>
         <IoMdArrowDropdown className="text-white ml-[2px]" />
       </div>
-      <div className="dropdown-content py-2 px-4 absolute top-full -right-8 w-60 h-auto rounded-md bg-[#f3f3f3] cursor-default opacity-0 pointer-events-none transition-opacity duration-700">
+      <div className="dropdown-content py-2 px-4 absolute top-full -right-8 w-60 h-auto rounded-md bg-[#f3f3f3] cursor-default opacity-0 pointer-events-none transition-opacity duration-700 z-20">
         <div className="absolute -top-[2px] right-[2.75rem] bg-inherit w-4 h-4 bg-[#f3f3f3] rotate-45"></div>
         <div className="flex flex-col items-center mt-2">
           <Link href={"/"}>

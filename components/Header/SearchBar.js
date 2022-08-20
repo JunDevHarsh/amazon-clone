@@ -3,9 +3,14 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { BsSearch } from "react-icons/bs";
 import MenuItemList from "./MenuList";
 
-const SearchBar = () => {
+const SearchBar = ({ background, setBackground }) => {
   const [selectedItem, setSelectedItem] = useState("All");
   const [searchBarFocus, setSearchBarFocus] = useState(false);
+
+  const handleSearchBar = () => {
+    setSearchBarFocus((searchBarFocus) => !searchBarFocus);
+    setBackground((background) => !background);
+  };
 
   return (
     <div
@@ -41,8 +46,8 @@ const SearchBar = () => {
           type="text"
           placeholder="Search for products"
           className="outline-none px-4 py-2 font-normal text-sm text-black tracking-wider w-full h-full bg-white"
-          onFocus={() => setSearchBarFocus((searchBarFocus) => !searchBarFocus)}
-          onBlur={() => setSearchBarFocus((searchBarFocus) => !searchBarFocus)}
+          onFocus={handleSearchBar}
+          onBlur={handleSearchBar}
         />
       </div>
       <div className="ml-auto rounded-tr-md rounded-br-md relative w-12 h-10 flex items-center justify-center cursor-pointer bg-[#febd69] hover:bg-[#f3a847] focus-within:shadow-amazon-box-shadow">

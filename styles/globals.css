@@ -48,3 +48,10 @@ input::-webkit-inner-spin-button {
 .parent-forward-icon:hover > .forward-icon {
   color: #111;
 }
+
+/* style where it is used -> ./components/Carousel/DesktopCarousel.js */
+
+.prev-icon > polyline,
+.next-icon > polyline {
+  stroke: #3f464e;
+}
