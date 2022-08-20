@@ -1,15 +1,13 @@
 import { useState } from "react";
-import {
-  Logo,
-  AddressTab,
-  LocationModal,
-  SearchBar,
-  LanguageTab,
-  UserLogin,
-  Cart,
-} from "./index";
+import Logo from "./Logo";
+import AddressTab from "./AddressTab";
+import LocationModal from "./LocationModal";
+import SearchBar from "./SearchBar";
+import LanguageTab from "./LanguageTab";
+import UserLogin from "./UserLogin";
+import Cart from "./Cart";
 
-function Header() {
+function Header({ background, setBackground }) {
   const [showLocationModal, setShowLocationModal] = useState(false);
 
   return (
@@ -23,9 +21,9 @@ function Header() {
         showModal={showLocationModal}
         closeModal={setShowLocationModal}
       />
-      <SearchBar />
-      <LanguageTab />
-      <UserLogin />
+      <SearchBar background={background} setBackground={setBackground} />
+      <LanguageTab background={background} setBackground={setBackground} />
+      <UserLogin background={background} setBackground={setBackground} />
       <div className="flex flex-col items-start border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[1px] px-2 cursor-pointer">
         <p className="font-normal text-sm text-white">Returns</p>
         <p className="font-medium text-base- text-white tracking-wider -mt-1">

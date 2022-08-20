@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import AmazonLogo from "../../public/assets/amazon-logo.svg";
+import AmazonLogo from "../../public/logo/amazon-logo.svg";
 
 const Logo = () => {
   return (
