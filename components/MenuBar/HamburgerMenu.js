@@ -5,20 +5,19 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
-const HamburgerMenu = () => {
-  const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
+const HamburgerMenu = ({ backgroundMain, setBackgroundMain }) => {
   const [hamburgerMenuShift, setHamburgerMenuShift] = useState(false);
   const hamburgerMenuRef = useRef();
 
   const handleOpenHamburgerMenu = () => {
     // Open the hamburger menu when clicked
     // default value of hamdburgerMenuOpen is false
-    setHamburgerMenuOpen((hamburgerMenuOpen) => !hamburgerMenuOpen);
+    setBackgroundMain((backgroundMain) => !backgroundMain);
   };
 
   const handleCloseHamburgerMenu = () => {
     // Close the hamburger menu when clicked outside the box
-    setHamburgerMenuOpen((hamburgerMenuOpen) => !hamburgerMenuOpen);
+    setBackgroundMain((backgroundMain) => !backgroundMain);
     // Make a delay of 700ms to make sure following steps
     setTimeout(() => {
       // if hamburger menu is shifted from its original place
@@ -42,11 +41,6 @@ const HamburgerMenu = () => {
 
   return (
     <>
-      <div
-        className={`w-full h-full absolute top-0 left-0 bg-[#000000cc] ${
-          hamburgerMenuOpen ? "z-10" : "-z-10"
-        }`}
-      ></div>
       <div>
         <button
           onFocus={handleOpenHamburgerMenu}
@@ -58,7 +52,7 @@ const HamburgerMenu = () => {
           <div
             ref={hamburgerMenuRef}
             className={`fixed w-80 h-[100vh] top-0 left-0  transition-transform duration-700 overflow-x-hidden bg-[#fcfcfc] cursor-default z-20 ${
-              hamburgerMenuOpen ? "translate-x-0" : "-translate-x-full"
+              backgroundMain ? "translate-x-0" : "-translate-x-full"
             }`}
           >
             <div className="w-full sticky top-0 left-0 h-[52px] bg-[#232f3e] z-10">
