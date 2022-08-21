@@ -3,9 +3,11 @@ import { useState } from "react";
 import DesktopCarousel from "../components/Carousel/DesktopCarousel";
 import Header from "../components/Header/Header";
 import MenuBar from "../components/MenuBar/MenuBar";
+import PreviewContainer from "../components/PreviewContainer/PreviewContainer";
 
 const Home = () => {
   const [background, setBackground] = useState(false);
+  const [backgroundMain, setBackgroundMain] = useState(false);
 
   return (
     <div>
@@ -25,16 +27,27 @@ const Home = () => {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="/icons/amazon-icon.webp" />
       </Head>
-      <Header background={background} setBackground={setBackground} />
-      <MenuBar />
-      <div className="relative w-full">
+      <main className="relative w-full">
         <div
-          className={`absolute top-0 left-0 w-full h-full bg-[#000000cc] ${
-            background ? "z-10" : "-z-10"
+          className={`w-full h-full absolute top-0 left-0 bg-[#000000cc] ${
+            backgroundMain ? "z-10" : "-z-10"
           }`}
         ></div>
-        <DesktopCarousel />
-      </div>
+        <Header background={background} setBackground={setBackground} />
+        <MenuBar
+          backgroundMain={backgroundMain}
+          setBackgroundMain={setBackgroundMain}
+        />
+        <div className="relative w-full">
+          <div
+            className={`absolute top-0 left-0 w-full h-full bg-[#000000cc] ${
+              background ? "z-10" : "-z-10"
+            }`}
+          ></div>
+          <DesktopCarousel />
+          <PreviewContainer />
+        </div>
+      </main>
     </div>
   );
 };
