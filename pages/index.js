@@ -4,6 +4,7 @@ import DesktopCarousel from "../components/Carousel/DesktopCarousel";
 import Header from "../components/Header/Header";
 import MenuBar from "../components/MenuBar/MenuBar";
 import PreviewContainer from "../components/PreviewContainer/PreviewContainer";
+import ProductsSlider from "../components/ProductsSlider/ProductsSlider";
 
 const Home = () => {
   const [background, setBackground] = useState(false);
@@ -27,7 +28,7 @@ const Home = () => {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="/icons/amazon-icon.webp" />
       </Head>
-      <main className="relative w-full">
+      <main className="relative w-full bg-[#eaeded]">
         <div
           className={`w-full h-full absolute top-0 left-0 bg-[#000000cc] ${
             backgroundMain ? "z-10" : "-z-10"
@@ -46,6 +47,7 @@ const Home = () => {
           ></div>
           <DesktopCarousel />
           <PreviewContainer />
+          <ProductsSlider />
         </div>
       </main>
     </div>
