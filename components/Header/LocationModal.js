@@ -12,9 +12,9 @@ const LocationModal = ({ showModal, closeModal }) => {
   return (
     <>
       {showModal && (
-        <>
+        <div className="fixed top-0 left-0 w-full h-full z-[99]">
           <div
-            className="fixed top-0 left-0 w-full h-full bg-very-dark-blue opacity-50 z-[100]"
+            className="fixed top-0 left-0 w-full h-full bg-[#000000cc] z-[100]"
             onClick={focusOut}
           ></div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-xs w-full h-auto bg-white rounded-md overflow-hidden z-[110]">
@@ -57,7 +57,7 @@ const LocationModal = ({ showModal, closeModal }) => {
               </form>
             </div>
           </div>
-        </>
+        </div>
       )}
     </>
   );
