@@ -55,3 +55,26 @@ input::-webkit-inner-spin-button {
 .next-icon > polyline {
   stroke: #3f464e;
 }
+
+/* style where it is used -> ./components/ProductsSlider/ProductsSlider.js */
+
+.products-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.products-scroll::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+.products-scroll:hover::-webkit-scrollbar-track {
+  background: #d3d3d3;
+}
+
+.products-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+
+.products-scroll::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}

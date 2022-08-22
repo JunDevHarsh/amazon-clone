@@ -5,7 +5,7 @@ import PreviewSlideBox from "./PreviewSlideBox";
 
 const PreviewContainer = () => {
   return (
-    <div className="relative max-w-[90rem] w-full h-auto bg-red-400 p-4 mx-auto flex items-center gap-4">
+    <div className="relative max-w-[90rem] w-full h-auto p-4 mx-auto flex items-center gap-4">
       <PreviewShoppingItem />
       <PreviewCategory />
       <PreviewSlideBox />
