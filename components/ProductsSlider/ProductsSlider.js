@@ -11,10 +11,12 @@ const ProductsSlider = () => {
         </h3>
         <div className="relative mt-4 grid grid-cols-[repeat(15,_1fr)] items-start h-48 w-full overflow-x-hidden hover:overflow-x-scroll gap-x-4 products-scroll">
           {[...Array(15)].map((_, index) => (
-            <div key={index} className="relative w-[130px] h-[170px]">
+            <div key={index}>
               <Link href={`/product-${index}`}>
                 <a>
-                  <Image src={Img} layout="fill" alt="pihone" />
+                  <div className="relative w-[130px] h-[170px]">
+                    <Image src={Img} layout="fill" alt="pihone" />
+                  </div>
                 </a>
               </Link>
             </div>
