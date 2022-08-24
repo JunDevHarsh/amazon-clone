@@ -11,7 +11,10 @@ function Header({ background, setBackground }) {
   const [showLocationModal, setShowLocationModal] = useState(false);
 
   return (
-    <div className="py-2 px-2 flex items-center bg-very-dark-blue h-[60px]">
+    <div
+      className="py-2 px-2 flex items-center bg-very-dark-blue h-[60px]"
+      id="header"
+    >
       <Logo />
       <AddressTab
         modalStatus={showLocationModal}

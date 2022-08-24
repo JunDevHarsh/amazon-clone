@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import DesktopCarousel from "../components/Carousel/DesktopCarousel";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import MenuBar from "../components/MenuBar/MenuBar";
 import PreviewContainer from "../components/PreviewContainer/PreviewContainer";
@@ -48,6 +49,7 @@ const Home = () => {
           <DesktopCarousel />
           <PreviewContainer />
           <ProductsSlider />
+          <Footer />
         </div>
       </main>
     </div>
