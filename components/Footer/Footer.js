@@ -17,7 +17,12 @@ const Footer = () => {
       <div className="py-4 w-full flex items-center justify-center">
         <Link href="/">
           <a>
-            <Image src={AmazonLogo} width={75} height={45} />
+            <Image
+              src={AmazonLogo}
+              width={75}
+              height={45}
+              alt="amazon-logo-img"
+            />
           </a>
         </Link>
       </div>

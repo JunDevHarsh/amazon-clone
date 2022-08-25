@@ -1,4 +1,4 @@
-export default [
+const MenuList = [
   "All Categories",
   "Alexa Skills",
   "Amazon Devices",
@@ -43,3 +43,5 @@ export default [
   "Video Games",
   "Watches",
 ];
+
+export default MenuList;

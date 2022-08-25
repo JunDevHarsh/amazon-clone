@@ -18,15 +18,16 @@ const HamburgerMenu = ({ backgroundMain, setBackgroundMain }) => {
   const handleCloseHamburgerMenu = () => {
     // Close the hamburger menu when clicked outside the box
     setBackgroundMain((backgroundMain) => !backgroundMain);
-    // Make a delay of 700ms to make sure following steps
-    setTimeout(() => {
-      // if hamburger menu is shifted from its original place
-      if (hamburgerMenuShift) {
-        setHamburgerMenuShift((hamburgerMenuShift) => !hamburgerMenuShift);
-      }
-      // scroll the menu to the top while closing the hamburger menu to make user experience better
-      hamburgerMenuRef.current.scroll(0, 0);
-    }, 700);
+    // if hamburger menu is shifted from its original place
+    if (hamburgerMenuShift) {
+      setHamburgerMenuShift((hamburgerMenuShift) => !hamburgerMenuShift);
+    }
+    // scroll the menu to the top while closing the hamburger menu to make user experience better
+    hamburgerMenuRef.current.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   };
 
   const handleExpandedHamburgerMenu = (hasExpandedMenu) => {
@@ -56,7 +57,7 @@ const HamburgerMenu = ({ backgroundMain, setBackgroundMain }) => {
             }`}
           >
             <div className="w-full sticky top-0 left-0 h-[52px] bg-[#232f3e] z-10">
-              <Link href="/dsfsdf">
+              <Link href="/auth/sign-in">
                 <a>
                   <div className="relative w-full flex items-center justify-center p-3">
                     <FaUserCircle className="text-white text-lg" />
