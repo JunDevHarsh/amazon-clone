@@ -17,7 +17,7 @@ const UserLogin = ({ background, setBackground }) => {
       <div className="dropdown-content py-2 px-4 absolute top-full -right-8 w-60 h-auto rounded-md bg-[#f3f3f3] cursor-default opacity-0 pointer-events-none transition-opacity duration-700 z-20">
         <div className="absolute -top-[2px] right-[2.75rem] bg-inherit w-4 h-4 bg-[#f3f3f3] rotate-45"></div>
         <div className="flex flex-col items-center mt-2">
-          <Link href={"/"}>
+          <Link href={"/signin"}>
             <a className="bg-gradient-to-b from-[#f8e3ad] to-[#eeba37] w-48 py-[6px] text-black text-center text-sm rounded-sm shadow-[0_0_0_1px_#b9ad72] z-10">
               Sign in
             </a>
