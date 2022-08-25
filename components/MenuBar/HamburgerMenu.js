@@ -57,7 +57,7 @@ const HamburgerMenu = ({ backgroundMain, setBackgroundMain }) => {
             }`}
           >
             <div className="w-full sticky top-0 left-0 h-[52px] bg-[#232f3e] z-10">
-              <Link href="/signin">
+              <Link href="/auth/sign-in">
                 <a>
                   <div className="relative w-full flex items-center justify-center p-3">
                     <FaUserCircle className="text-white text-lg" />

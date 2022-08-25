@@ -2,9 +2,9 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import AmazonLogo from "../public/logo/amazon-logo.svg";
+import AmazonLogo from "../../public/logo/amazon-logo.svg";
 
-const signin = () => {
+const SignIn = () => {
   const router = useRouter();
 
   const handleOnSubmit = (e) => {
@@ -37,7 +37,7 @@ const signin = () => {
                 src={AmazonLogo}
                 width={112}
                 height={75}
-                alt="amazon-brand0-logo"
+                alt="amazon-brand-logo"
               />
             </a>
           </Link>
@@ -90,7 +90,7 @@ const signin = () => {
             </button>
           </form>
           <p className="my-2 text-xs tracking-wider font-normal text-gray-500">
-            By continuing, you agree to Amazon-clone's{" "}
+            By continuing, you agree to Amazon-clone&#39;s{" "}
             <span className="text-blue-400 cursor-pointer hover:underline">
               Conditions of Use
             </span>{" "}
@@ -106,7 +106,7 @@ const signin = () => {
           <p className="text-xs tracking-wider text-gray-500">New to Amazon?</p>
           <div className="w-full border-t border-t-solid border-t-[#ebecef]"></div>
         </div>
-        <Link href={"/signUp"}>
+        <Link href={"/sign-up"}>
           <a className="w-full py-2 text-center text-sm tracking-wider bg-gradient-to-b from-[#f7f8fa] to-[#e7e9ec] hover:bg-gradient-to-b hover:from-[#e7eaf0] hover:to-[#d9dce1] border border-solid border-[#adb1b8_#a2a6ac_#8d9096] rounded-md">
             Create your Account account
           </a>
@@ -116,4 +116,4 @@ const signin = () => {
   );
 };
 
-export default signin;
+export default SignIn;
