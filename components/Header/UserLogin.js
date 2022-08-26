@@ -26,7 +26,7 @@ const UserLogin = ({ background, setBackground }) => {
             <span className="text-[10px] text-[#6a6a6a] tracking-wider">
               New Customer?
             </span>
-            <Link href={"/ "}>
+            <Link href={"/auth/sign-up"}>
               <a className="text-xs text-blue-500 ml-1 hover:text-[#e47911] hover:underline">
                 Start here
               </a>

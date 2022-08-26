@@ -106,7 +106,7 @@ const SignIn = () => {
           <p className="text-xs tracking-wider text-gray-500">New to Amazon?</p>
           <div className="w-full border-t border-t-solid border-t-[#ebecef]"></div>
         </div>
-        <Link href={"/sign-up"}>
+        <Link href={"/auth/sign-up"}>
           <a className="w-full py-2 text-center text-sm tracking-wider bg-gradient-to-b from-[#f7f8fa] to-[#e7e9ec] hover:bg-gradient-to-b hover:from-[#e7eaf0] hover:to-[#d9dce1] border border-solid border-[#adb1b8_#a2a6ac_#8d9096] rounded-md">
             Create your Account account
           </a>
