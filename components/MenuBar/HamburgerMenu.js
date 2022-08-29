@@ -1,23 +1,25 @@
 import Link from "next/link";
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
+import { BackgroundContext } from "../../context/BackgroundContext";
 import HamburgerMenuList from "./HamburgerMenuList";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
-const HamburgerMenu = ({ backgroundMain, setBackgroundMain }) => {
+const HamburgerMenu = () => {
+  const { background, setBackground } = useContext(BackgroundContext);
   const [hamburgerMenuShift, setHamburgerMenuShift] = useState(false);
   const hamburgerMenuRef = useRef();
 
   const handleOpenHamburgerMenu = () => {
     // Open the hamburger menu when clicked
     // default value of hamdburgerMenuOpen is false
-    setBackgroundMain((backgroundMain) => !backgroundMain);
+    setBackground((background) => !background);
   };
 
   const handleCloseHamburgerMenu = () => {
     // Close the hamburger menu when clicked outside the box
-    setBackgroundMain((backgroundMain) => !backgroundMain);
+    setBackground((background) => !background);
     // if hamburger menu is shifted from its original place
     if (hamburgerMenuShift) {
       setHamburgerMenuShift((hamburgerMenuShift) => !hamburgerMenuShift);
@@ -53,7 +55,7 @@ const HamburgerMenu = ({ backgroundMain, setBackgroundMain }) => {
           <div
             ref={hamburgerMenuRef}
             className={`fixed w-80 h-[100vh] top-0 left-0  transition-transform duration-700 overflow-x-hidden bg-[#fcfcfc] cursor-default z-20 ${
-              backgroundMain ? "translate-x-0" : "-translate-x-full"
+              background ? "translate-x-0" : "-translate-x-full"
             }`}
           >
             <div className="w-full sticky top-0 left-0 h-[52px] bg-[#232f3e] z-10">
