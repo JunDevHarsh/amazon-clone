@@ -8,7 +8,6 @@ import PreviewContainer from "../components/PreviewContainer/PreviewContainer";
 import ProductsSlider from "../components/ProductsSlider/ProductsSlider";
 
 const Home = () => {
-  const [background, setBackground] = useState(false);
   const [backgroundMain, setBackgroundMain] = useState(false);
 
   return (
@@ -35,17 +34,12 @@ const Home = () => {
             backgroundMain ? "z-10" : "-z-10"
           }`}
         ></div>
-        <Header background={background} setBackground={setBackground} />
+        <Header />
         <MenuBar
           backgroundMain={backgroundMain}
           setBackgroundMain={setBackgroundMain}
         />
         <div className="relative w-full">
-          <div
-            className={`absolute top-0 left-0 w-full h-full bg-[#000000cc] ${
-              background ? "z-10" : "-z-10"
-            }`}
-          ></div>
           <DesktopCarousel />
           <PreviewContainer />
           <ProductsSlider />
