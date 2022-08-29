@@ -2,13 +2,9 @@ import Image from "next/image";
 import { IoMdArrowDropdown } from "react-icons/io";
 import IndianFlag from "../../public/logo/india.svg";
 
-const LanguageTab = ({ background, setBackground }) => {
+const LanguageTab = () => {
   return (
-    <div
-      className="border-[1px] border-transparent hover:border-white rounded-[0.25rem]"
-      onMouseEnter={() => setBackground((background) => !background)}
-      onMouseLeave={() => setBackground((background) => !background)}
-    >
+    <div className="border-[1px] border-transparent hover:border-white rounded-[0.25rem]">
       <div className="dropdown-btn relative flex items-end justify-between mx-2 py-3 w-11 cursor-pointer">
         <Image src={IndianFlag} width={24} height={16} alt="india-flag-img" />
         <IoMdArrowDropdown className="text-gray-200" />

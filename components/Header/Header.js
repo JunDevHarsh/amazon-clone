@@ -7,7 +7,7 @@ import LanguageTab from "./LanguageTab";
 import UserLogin from "./UserLogin";
 import Cart from "./Cart";
 
-function Header({ background, setBackground }) {
+function Header() {
   const [showLocationModal, setShowLocationModal] = useState(false);
 
   return (
@@ -24,9 +24,9 @@ function Header({ background, setBackground }) {
         showModal={showLocationModal}
         closeModal={setShowLocationModal}
       />
-      <SearchBar background={background} setBackground={setBackground} />
-      <LanguageTab background={background} setBackground={setBackground} />
-      <UserLogin background={background} setBackground={setBackground} />
+      <SearchBar />
+      <LanguageTab />
+      <UserLogin />
       <div className="flex flex-col items-start border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[1px] px-2 cursor-pointer">
         <p className="font-normal text-sm text-white">Returns</p>
         <p className="font-medium text-base- text-white tracking-wider -mt-1">

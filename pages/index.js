@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useContext } from "react";
+import { BackgroundContext } from "../context/BackgroundContext";
 import DesktopCarousel from "../components/Carousel/DesktopCarousel";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -8,8 +9,7 @@ import PreviewContainer from "../components/PreviewContainer/PreviewContainer";
 import ProductsSlider from "../components/ProductsSlider/ProductsSlider";
 
 const Home = () => {
-  const [background, setBackground] = useState(false);
-  const [backgroundMain, setBackgroundMain] = useState(false);
+  const { background } = useContext(BackgroundContext);
 
   return (
     <div>
@@ -32,20 +32,12 @@ const Home = () => {
       <main className="relative w-full bg-[#eaeded]">
         <div
           className={`w-full h-full absolute top-0 left-0 bg-[#000000cc] ${
-            backgroundMain ? "z-10" : "-z-10"
+            background ? "z-10" : "-z-10"
           }`}
         ></div>
-        <Header background={background} setBackground={setBackground} />
-        <MenuBar
-          backgroundMain={backgroundMain}
-          setBackgroundMain={setBackgroundMain}
-        />
+        <Header />
+        <MenuBar />
         <div className="relative w-full">
-          <div
-            className={`absolute top-0 left-0 w-full h-full bg-[#000000cc] ${
-              background ? "z-10" : "-z-10"
-            }`}
-          ></div>
           <DesktopCarousel />
           <PreviewContainer />
           <ProductsSlider />

@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { IoMdArrowDropdown } from "react-icons/io";
 
-const UserLogin = ({ background, setBackground }) => {
+const UserLogin = () => {
   const accountMenu = ["Your Account", "Your Orders", "Your Save items"];
   return (
-    <div
-      onMouseEnter={() => setBackground((background) => !background)}
-      onMouseLeave={() => setBackground((background) => !background)}
-      className="relative border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[2px] px-2 flex flex-col items-center cursor-pointer dropdown-btn"
-    >
+    <div className="relative border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[2px] px-2 flex flex-col items-center cursor-pointer dropdown-btn">
       <p className="text-white font-normal text-sm">Hello, Sign In</p>
       <div className="flex items-center">
         <p className="text-white font-medium text-sm">Account</p>
