@@ -1,6 +1,4 @@
 import Head from "next/head";
-import { useContext } from "react";
-import { BackgroundContext } from "../context/BackgroundContext";
 import DesktopCarousel from "../components/Carousel/DesktopCarousel";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -9,8 +7,6 @@ import PreviewContainer from "../components/PreviewContainer/PreviewContainer";
 import ProductsSlider from "../components/ProductsSlider/ProductsSlider";
 
 const Home = () => {
-  const { background } = useContext(BackgroundContext);
-
   return (
     <div>
       <Head>
@@ -30,11 +26,6 @@ const Home = () => {
         <link rel="icon" href="/icons/amazon-icon.webp" />
       </Head>
       <main className="relative w-full bg-[#eaeded]">
-        <div
-          className={`w-full h-full absolute top-0 left-0 bg-[#000000cc] ${
-            background ? "z-10" : "-z-10"
-          }`}
-        ></div>
         <Header />
         <MenuBar />
         <div className="relative w-full">
