@@ -1,6 +1,7 @@
 import Products from "../../pages/api/products.json";
 import Link from "next/link";
 import Image from "next/image";
+import RatingStar from "./RatingStar";
 
 const SearchResult = () => {
   return (
@@ -34,6 +35,7 @@ const SearchResult = () => {
                 {Products[0].title}
               </a>
             </Link>
+            <RatingStar ratings={Products[0].ratings} />
             <div className="relative w-full flex items-end">
               <Link href={`/${Products[0].id}`}>
                 <a>

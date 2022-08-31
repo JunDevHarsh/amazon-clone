@@ -4,7 +4,13 @@
         "category": "Electronics",
         "category_id": "305",
         "title": "Samsung Galaxy M53 5G (Deep Ocean Blue, 8GB, 128GB Storage) | 108MP | sAmoled+ 120Hz | 16GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
-        "ratings": "3701",
+        "ratings": {
+            "1": "232",
+            "2": "343",
+            "3": "543",
+            "4": "765",
+            "5": "456"
+        },
         "price": "32999",
         "out_of_stock": false,
         "warranty": "12",
