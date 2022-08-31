@@ -3,7 +3,7 @@
         "id": "16001",
         "category": "Electronics",
         "category_id": "305",
-        "title": "Samsung Galaxy M53",
+        "title": "Samsung Galaxy M53 5G (Deep Ocean Blue, 8GB, 128GB Storage) | 108MP | sAmoled+ 120Hz | 16GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
         "ratings": "3701",
         "price": "32999",
         "out_of_stock": false,
@@ -13,6 +13,13 @@
         "o_s": "Android",
         "o_s_version": "12",
         "model_number": "SM-M536BZNEINU",
+        "images": [
+            "samsung/samsung-galaxy-m53-1",
+            "samsung/samsung-galaxy-m53-3",
+            "samsung/samsung-galaxy-m53-2",
+            "samsung/samsung-galaxy-m53-4",
+            "samsung/samsung-galaxy-m53-5"
+        ],
         "ram": "6",
         "rom": "128",
         "description": [
