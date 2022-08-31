@@ -1,0 +1,33 @@
+[
+    {
+        "id": "16001",
+        "category": "Electronics",
+        "category_id": "305",
+        "title": "Samsung Galaxy M53 5G (Deep Ocean Blue, 8GB, 128GB Storage) | 108MP | sAmoled+ 120Hz | 16GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
+        "ratings": "3701",
+        "price": "32999",
+        "out_of_stock": false,
+        "warranty": "12",
+        "brand_name": "Samsung",
+        "brand_id": "201",
+        "o_s": "Android",
+        "o_s_version": "12",
+        "model_number": "SM-M536BZNEINU",
+        "images": [
+            "samsung/samsung-galaxy-m53-1",
+            "samsung/samsung-galaxy-m53-3",
+            "samsung/samsung-galaxy-m53-2",
+            "samsung/samsung-galaxy-m53-4",
+            "samsung/samsung-galaxy-m53-5"
+        ],
+        "ram": "6",
+        "rom": "128",
+        "description": [
+            "Segment Best 108MP Quad Camera Setup, with exciting features like Single Take, Object Eraser, and Photo Remaster",
+            "6.7-inch Super AMOLED Plus Display, FHD+ resolution, 1080x2400 pixels with 120Hz Refresh Rate",
+            "MTK D900 Octa Core 2.4GHz 6nm Processor with 4x4 Mimo Band support for a HyperFast 5G experience",
+            "Massive 5000 mAh Battery | Memory, Storage & SIM: 6GB RAM | RAM Plus upto 6GB |128GB internal memory expandable up to 1TB",
+            "Latest Android v12.0, One UI 4 operating system"
+        ]
+    }
+]

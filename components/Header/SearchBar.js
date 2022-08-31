@@ -57,7 +57,7 @@ const SearchBar = () => {
           name="item"
           value={item}
           onChange={(e) => setItem(e.target.value)}
-          placeholder="Search for products"
+          placeholder="Type 'Samsung galaxy m53'"
           className="outline-none px-4 py-2 font-normal text-sm text-black tracking-wider w-full h-full bg-white"
           onFocus={() => setSearchBarFocus((searchBarFocus) => !searchBarFocus)}
           onBlur={() => setSearchBarFocus((searchBarFocus) => !searchBarFocus)}

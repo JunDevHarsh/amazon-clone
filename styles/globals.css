@@ -78,3 +78,14 @@ input::-webkit-inner-spin-button {
 .products-scroll::-webkit-scrollbar-thumb:hover {
   background: #888;
 }
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}

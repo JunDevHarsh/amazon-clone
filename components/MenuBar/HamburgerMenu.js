@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { useContext, useRef, useState } from "react";
-import { BackgroundContext } from "../../context/BackgroundContext";
+import { useRef, useState } from "react";
 import HamburgerMenuList from "./HamburgerMenuList";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 const HamburgerMenu = () => {
-  const { background, setBackground } = useContext(BackgroundContext);
+  const [background, setBackground] = useState(false);
   const [hamburgerMenuShift, setHamburgerMenuShift] = useState(false);
   const hamburgerMenuRef = useRef();
 
@@ -45,6 +44,11 @@ const HamburgerMenu = () => {
   return (
     <>
       <div>
+        <div
+          className={`w-full h-full absolute top-0 left-0 bg-[#000000cc] ${
+            background ? "z-10" : "-z-10"
+          }`}
+        ></div>
         <button
           onFocus={handleOpenHamburgerMenu}
           onBlur={handleCloseHamburgerMenu}

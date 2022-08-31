@@ -1,9 +1,15 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import SearchResultHeader from "../components/SearchResult/SearchResultHeader";
+import FilterSidebar from "../components/SearchResult/FilterSidebar";
+import SearchResult from "../components/SearchResult/SearchResult";
+import Header from "../components/Header/Header";
+import MenuBar from "../components/MenuBar/MenuBar";
+import Footer from "../components/Footer/Footer";
 
 const Search = () => {
   const router = useRouter();
-  const { category, item } = router.query;
+  const { item } = router.query;
 
   return (
     <div>
@@ -23,8 +29,15 @@ const Search = () => {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="/icons/amazon-icon.webp" />
       </Head>
-      <main className="relative w-full bg-[#eaeded]">
-        {`Search results for ${item} from ${category} category`}
+      <main className="relative w-full bg-white">
+        <Header />
+        <MenuBar />
+        <SearchResultHeader searchItem={item} />
+        <div className="flex items-start w-full mt-2">
+          <FilterSidebar />
+          <SearchResult />
+        </div>
+        <Footer />
       </main>
     </div>
   );
