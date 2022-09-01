@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { BsSearch } from "react-icons/bs";
 import MenuItemList from "./MenuList";
@@ -9,6 +9,7 @@ const SearchBar = () => {
   const [searchBarFocus, setSearchBarFocus] = useState(false);
   const [item, setItem] = useState("");
   const router = useRouter();
+  const searchBarRender = useRef(true);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -21,6 +22,16 @@ const SearchBar = () => {
         .toLowerCase()}`
     );
   };
+
+  useEffect(() => {
+    if (searchBarRender.current) {
+      let value = router.query.item;
+      if (value) {
+        setItem(value);
+      }
+    }
+    return () => (searchBarRender.current = false);
+  });
 
   return (
     <form
