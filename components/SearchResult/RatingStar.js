@@ -18,11 +18,15 @@ const RatingStar = ({ ratings }) => {
     let value = Number((scoreTotalRatings / responseTotalRatings).toFixed(1));
     setRemainder((value * 10) % 10);
     setQuotient(Math.floor((value * 10) / 10));
+    console.log(
+      `quotient: ${quotient}, remainder: ${remainder}, scoreTotalRatings: ${scoreTotalRatings}, reponseTotalRatings: ${responseTotalRatings}, value: ${value}`
+    );
   };
 
   useEffect(() => {
     if (isMounted.current) {
       showRatings(ratings);
+      console.log("useEffect run");
     }
     return () => (isMounted.current = true);
   }, []);
