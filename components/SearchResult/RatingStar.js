@@ -34,12 +34,19 @@ const RatingStar = ({ ratings }) => {
           index < quotient ||
           (index <= quotient && remainder >= 8 && remainder <= 9)
         ) {
-          return <MdStar key={index} className="text-[#ffa41c] text-lg" />;
+          return (
+            <MdStar key={index} className="text-[#ffa41c] text-lg star-1" />
+          );
         } else if (index <= quotient && remainder >= 3 && remainder <= 7) {
-          return <MdStarHalf key={index} className="text-[#ffa41c] text-lg" />;
+          return (
+            <MdStarHalf key={index} className="text-[#ffa41c] text-lg star-2" />
+          );
         } else {
           return (
-            <MdStarOutline key={index} className="text-[#ffa41c] text-lg" />
+            <MdStarOutline
+              key={index}
+              className="text-[#ffa41c] text-lg star-3"
+            />
           );
         }
       })}
