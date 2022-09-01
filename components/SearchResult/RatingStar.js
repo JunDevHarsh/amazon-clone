@@ -4,7 +4,7 @@ import { MdStarHalf, MdStarOutline, MdStar } from "react-icons/md";
 const RatingStar = ({ ratings }) => {
   const [remainder, setRemainder] = useState(0);
   const [quotient, setQuotient] = useState(0);
-  const isMounted = useRef(false);
+  const isMounted = useRef(true);
 
   const showRatings = (ratings) => {
     let scoreTotalRatings = Object.values(ratings).reduce(
@@ -28,7 +28,7 @@ const RatingStar = ({ ratings }) => {
       showRatings(ratings);
       console.log("useEffect run");
     }
-    return () => (isMounted.current = true);
+    return () => (isMounted.current = false);
   }, []);
 
   return (
