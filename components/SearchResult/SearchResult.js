@@ -2,6 +2,7 @@ import Products from "../../pages/api/products.json";
 import Link from "next/link";
 import Image from "next/image";
 import RatingStar from "./RatingStar";
+import Pagination from "./Pagination";
 
 const SearchResult = () => {
   return (
@@ -56,6 +57,7 @@ const SearchResult = () => {
           </div>
         </div>
       ))}
+      <Pagination />
     </div>
   );
 };
