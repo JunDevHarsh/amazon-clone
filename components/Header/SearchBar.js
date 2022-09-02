@@ -16,6 +16,7 @@ const SearchBar = () => {
     if (item === "" || item.trim().length === 0) {
       return;
     }
+    setItem((prev) => prev.trim());
     router.push(
       `/search?category=${category.toLowerCase()}&item=${item
         .trim()
@@ -31,7 +32,7 @@ const SearchBar = () => {
       }
     }
     return () => (searchBarRender.current = false);
-  });
+  }, []);
 
   return (
     <form
