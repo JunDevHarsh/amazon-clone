@@ -18,7 +18,9 @@ const SearchResult = () => {
           className="w-full flex flex-row items-start rounded-sm shadow-[0_0_1px_1px_#d9d9d9] bg-white"
         >
           <div className="w-1/4 min-w-[15rem] flex items-center justify-center shadow-[1px_0_1px_0_#d9d9d9] cursor-pointer">
-            <Link href={`/${Products[0].id}`}>
+            <Link
+              href={`/product?id=${Products[0].id}&item=${Products[0].title}`}
+            >
               <a>
                 <Image
                   className="w-full"
@@ -31,14 +33,18 @@ const SearchResult = () => {
             </Link>
           </div>
           <div className="w-3/4 flex flex-col items-start gap-2 p-4">
-            <Link href={`/${Products[0].id}`}>
+            <Link
+              href={`/product?id=${Products[0].id}&item=${Products[0].title}`}
+            >
               <a className="font-medium text-lg tracking-wider hover:text-[#c45500]">
                 {Products[0].title}
               </a>
             </Link>
             <RatingStar ratings={Products[0].ratings} />
             <div className="relative w-full flex items-end">
-              <Link href={`/${Products[0].id}`}>
+              <Link
+                href={`/product?id=${Products[0].id}&item=${Products[0].title}`}
+              >
                 <a>
                   <span className="absolute top-0.5 left-0 w-2 h-2 font-light text-[#515252] text-sm">
                     &#8377;
