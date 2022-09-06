@@ -7,7 +7,7 @@ import Header from "../components/Header/Header";
 import MenuBar from "../components/MenuBar/MenuBar";
 import Products from "./api/products.json";
 
-const cart = () => {
+const Cart = () => {
   const [quantity, setQuantity] = useState(1);
 
   return (
@@ -45,4 +45,4 @@ const cart = () => {
   );
 };
 
-export default cart;
+export default Cart;
