@@ -1,5 +1,7 @@
 import { IoMdArrowDropdown } from "react-icons/io";
 
+const MAX_SEARCH_TEXT_LENGTH = 50;
+
 const SearchResultHeader = ({ searchItem }) => {
   const list = [
     "Featured",
@@ -13,7 +15,11 @@ const SearchResultHeader = ({ searchItem }) => {
     <div className="flex items-center justify-between p-2 border-b border-solid border-[#ccc] shadow-[0_4px_4px_0_rgba(221,221,221,1)]">
       <p className="text-sm font-normal text-black tracking-wider">
         1 - 10 of 100 results for&nbsp;
-        <span className="text-[#c45500] font-semibold">{`"${searchItem}"`}</span>
+        <span className="text-[#c45500] font-semibold">{`"${
+          searchItem.length < MAX_SEARCH_TEXT_LENGTH
+            ? searchItem
+            : searchItem.slice(0, MAX_SEARCH_TEXT_LENGTH) + "..."
+        }"`}</span>
       </p>
       <div
         id="sortListMenu"
