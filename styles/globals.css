@@ -89,3 +89,16 @@ select {
 select::-ms-expand {
   display: none;
 }
+
+/* styles where it is used -> ./components/SearchBar/InputSearchBar.js */
+
+.searchbar-result {
+  opacity: 0;
+  z-index: -10;
+  transition: all 500ms ease;
+}
+
+.searchbar:focus + .searchbar-result {
+  opacity: 1;
+  z-index: 10;
+}

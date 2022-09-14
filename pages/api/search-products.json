@@ -1,0 +1,584 @@
+[
+  {
+    "id": 16001,
+    "brandId": 201,
+    "title": "Samsung Galaxy M13 (Aqua Green, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus",
+    "brand": "samsung"
+  },
+  {
+    "id": 16002,
+    "brandId": 201,
+    "title": "Samsung Galaxy M53 5G (Mystique Green, 6GB, 128GB Storage) | 108MP | sAmoled+ 120Hz | 12GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
+    "brand": "samsung"
+  },
+  {
+    "id": 16003,
+    "brandId": 201,
+    "title": "Samsung Galaxy M32 5G (Sky Blue, 8GB RAM, 128GB Storage) | Dimensity 720 Processor | 5000mAh Battery| Knox Security",
+    "brand": "samsung"
+  },
+  {
+    "id": 16004,
+    "brandId": 201,
+    "title": "Samsung Galaxy M12 (Blue,4GB RAM, 64GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate",
+    "brand": "samsung"
+  },
+  {
+    "id": 16005,
+    "brandId": 201,
+    "title": "Samsung Galaxy A52s 5G (Violet, 6GB RAM, 128GB Storage) Without Offers",
+    "brand": "samsung"
+  },
+  {
+    "id": 16006,
+    "brandId": 201,
+    "title": "Samsung Galaxy M21 2021 Edition (Arctic Blue, 4GB RAM, 64GB Storage) | FHD+ sAMOLED | 6 Months Free Screen Replacement for Prime (SM-M215GLBDINS)",
+    "brand": "samsung"
+  },
+  {
+    "id": 16007,
+    "brandId": 201,
+    "title": "Samsung Galaxy A23 Blue, 6GB RAM, 128GB Storage with No Cost EMI/Additional Exchange Offers",
+    "brand": "samsung"
+  },
+  {
+    "id": 16008,
+    "brandId": 201,
+    "title": "Samsung Galaxy M33 5G (Emerald Brown, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
+    "brand": "samsung"
+  },
+  {
+    "id": 16009,
+    "brandId": 201,
+    "title": "Samsung Galaxy Z Flip4 5G (Pink Gold, 8GB RAM, 128GB Storage) + Galaxy Watch4 Classic Bluetooth(42mm, Silver)",
+    "brand": "samsung"
+  },
+  {
+    "id": 16010,
+    "brandId": 201,
+    "title": "Samsung Galaxy S20 FE 5G (Cloud Navy, 8GB RAM, 128GB Storage) with No Cost EMI & Additional Exchange Offers",
+    "brand": "samsung"
+  },
+  {
+    "id": 16011,
+    "brandId": 201,
+    "title": "Samsung Galaxy A13 Blue, 4GB RAM, 64GB Storage with No Cost EMI/Additional Exchange Offers, (SM-A135FLBGINS)",
+    "brand": "samsung"
+  },
+  {
+    "id": 16012,
+    "brandId": 201,
+    "title": "Samsung Galaxy M52 5G (ICY Blue, 6GB RAM, 128GB Storage) Latest Snapdragon 778G 5G | sAMOLED 120Hz Display",
+    "brand": "samsung"
+  },
+  {
+    "id": 16013,
+    "brandId": 201,
+    "title": "Samsung Galaxy S21 FE 5G (Lavender, 8GB, 128GB Storage)",
+    "brand": "samsung"
+  },
+  {
+    "id": 16014,
+    "brandId": 201,
+    "title": "Samsung Galaxy A23 Peach, 8GB RAM, 128GB Storage with No Cost EMI/Additional Exchange Offers",
+    "brand": "samsung"
+  },
+  {
+    "id": 16015,
+    "brandId": 201,
+    "title": "Samsung Galaxy A03 Core (Blue, 2GB RAM, 32GB Storage) with No Cost EMI/Additional Exchange Offers",
+    "brand": "samsung"
+  },
+  {
+    "id": 16016,
+    "brandId": 201,
+    "title": "SAMSUNG Galaxy F13 (Sunrise Copper, 4GB RAM 64GB Storage)",
+    "brand": "samsung"
+  },
+  {
+    "id": 16017,
+    "brandId": 201,
+    "title": "Samsung Galaxy A03 Black, 3GB RAM, 32GB Storage Without Offers",
+    "brand": "samsung"
+  },
+  {
+    "id": 16018,
+    "brandId": 202,
+    "title": "Apple iPhone 13 Pro Max (128GB) - Sierra Blue",
+    "brand": "apple"
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 12 (64GB) - (Product) RED",
+    "brand": "apple",
+    "id": 16019
+  },
+  {
+    "brandId": 202,
+    "title": "iPhone 14 256GB (Product) RED",
+    "brand": "apple",
+    "id": 16020
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 13 (128GB) - Blue",
+    "brand": "apple",
+    "id": 16021
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 13 Pro (256GB) - Sierra Blue",
+    "brand": "apple",
+    "id": 16022
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 13 (128GB) - Midnight",
+    "brand": "apple",
+    "id": 16023
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 13 (128GB) - Starlight",
+    "brand": "apple",
+    "id": 16024
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 12 (128GB) - Black",
+    "brand": "apple",
+    "id": 16025
+  },
+  {
+    "brandId": 202,
+    "title": " Apple iPhone 12 (64GB) - Blue",
+    "brand": "apple",
+    "id": 16026
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 13 (128GB) - Pink",
+    "brand": "apple",
+    "id": 16027
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 12 Mini (128GB) - White",
+    "brand": "apple",
+    "id": 16028
+  },
+  {
+    "brandId": 202,
+    "title": "iPhone 14 256GB Starlight",
+    "brand": "apple",
+    "id": 16029
+  },
+  {
+    "brandId": 202,
+    "title": "Apple iPhone 12 (64GB) - Green",
+    "brand": "apple",
+    "id": 16030
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi 9 Activ (Coral Green, 4GB RAM, 64GB Storage)| Octa-core Helio G35 | 5000 mAh Battery",
+    "brand": "redmi",
+    "id": 16031
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery",
+    "brand": "redmi",
+    "id": 16032
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi 9 Activ (Metallic Purple, 4GB RAM, 64GB Storage) | Octa-core Helio G35 | 5000 mAh Battery",
+    "brand": "redmi",
+    "id": 16033
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi Note 11T 5G (Stardust White, 6GB RAM, 128GB ROM)| Dimensity 810 5G | 33W Pro Fast Charging | Charger Included | Additional Exchange Offers",
+    "brand": "redmi",
+    "id": 16034
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi 10 Prime (Phantom Black 4GB RAM 64GB | Helio G88 with extendable RAM Upto 2GB | FHD+ 90Hz Adaptive Sync Display)",
+    "brand": "redmi",
+    "id": 16035
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi Note 11 (Horizon Blue, 4GB RAM, 64GB Storage) | 90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | Alexa Built-in | 33W Charger Included",
+    "brand": "redmi",
+    "id": 16036
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi 9 Activ (Coral Green, 6GB RAM, 128GB Storage)",
+    "brand": "redmi",
+    "id": 16037
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi Note 10S (Cosmic Purple, 6GB RAM, 128GB Storage) - Super Amoled Display | 64 MP Quad Camera | Alexa Built in",
+    "brand": "redmi",
+    "id": 16038
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi Note 11 Pro + 5G (Stealth Black, 6GB RAM, 128GB Storage) | 67W Turbo Charge | 120Hz Super AMOLED Display | Additiona... Redmi Note 11 Pro + 5G (Stealth Black, 6GB RAM, 128GB Storage) | 67W Turbo Charge | 120Hz Super AMOLED Display",
+    "brand": "redmi",
+    "id": 16039
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi Note 11 Pro + 5G (Mirage Blue, 8GB RAM, 256GB Storage) | 67W Turbo Charge | 120Hz Super AMOLED Display",
+    "brand": "redmi",
+    "id": 16040
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi Note 11 (Space Black, 6GB RAM, 64GB Storage) | 90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | Alexa Buil... Redmi Note 11 (Space Black, 6GB RAM, 64GB Storage) | 90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | Alexa Built-in | 33W Charger Included",
+    "brand": "redmi",
+    "id": 16041
+  },
+  {
+    "brandId": 203,
+    "title": "Redmi 11 Prime 5G (Meadow Green, 4GB RAM 64GB ROM) | Prime Design | MTK Dimensity 700 | 50 MP Dual Cam | 5000mAh | 7 Band 5G",
+    "brand": "redmi",
+    "id": 16042
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO A57 (Glowing Black, 4GB RAM, 64 Storage)",
+    "brand": "oppo",
+    "id": 16043
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO F19s (Glowing Gold, 6GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers",
+    "brand": "oppo",
+    "id": 16044
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO A15s (Rainbow Silver, 4GB RAM, 64GB Storage)",
+    "brand": "oppo",
+    "id": 16045
+  },
+  {
+    "brandId": 204,
+    "title": "Oppo A54 (Crystal Black, 6GB RAM, 128GB Storage)",
+    "brand": "oppo",
+    "id": 16046
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO A74 5G (Fantastic Purple,6GB RAM,128GB Storage)",
+    "brand": "oppo",
+    "id": 16047
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO A15s (Fancy White, 4GB RAM, 64GB Storage)",
+    "brand": "oppo",
+    "id": 16048
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO F21 Pro (Sunset Orange, 8GB RAM, 128 Storage)",
+    "brand": "oppo",
+    "id": 16049
+  },
+  {
+    "brandId": 204,
+    "title": "OPPO A57 (Glowing Black, 4GB RAM, 64 Storage)",
+    "brand": "oppo",
+    "id": 16050
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y21G (Diamond Glow, 4GB RAM, 64GB ROM)",
+    "brand": "vivo",
+    "id": 16051
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y33T (Mid Day Dream, 8GB RAM, 128GB ROM)",
+    "brand": "vivo",
+    "id": 16052
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo V23 5G (Stardust Black, 8GB RAM 128GB Storage)",
+    "brand": "vivo",
+    "id": 16053
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y21 (Diamond Glow, 4GB RAM, 64GB Storage)",
+    "brand": "vivo",
+    "id": 16054
+  },
+  {
+    "brandId": 205,
+    "title": "vivo Y15s Mystic Blue (3GB RAM & 32GB ROM)",
+    "brand": "vivo",
+    "id": 16055
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y21 (Midnight Blue, 4GB RAM, 64GB Storage)",
+    "brand": "vivo",
+    "id": 16056
+  },
+  {
+    "brandId": 205,
+    "title": "vivo Y35 (Dawn Gold, 8GB RAM, 128GB Storage)",
+    "brand": "vivo",
+    "id": 16057
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y21 (Diamond Glow, 4GB RAM, 64GB Storage)",
+    "brand": "vivo",
+    "id": 16058
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y33T (Mid Day Dream, 8GB RAM, 128GB ROM)",
+    "brand": "vivo",
+    "id": 16059
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo V23 5G (Sunshine Gold, 8GB RAM 128GB Storage)",
+    "brand": "vivo",
+    "id": 16060
+  },
+  {
+    "brandId": 205,
+    "title": "Vivo Y21T (Midnight Blue, 4GB RAM, 128GB ROM)",
+    "brand": "vivo",
+    "id": 16061
+  },
+  {
+    "brandId": 206,
+    "title": "Realme X7 Pro 5G (Mystic Black, 8GB RAM, 128GB Storage)",
+    "brand": "realme",
+    "id": 16062
+  },
+  {
+    "brandId": 206,
+    "title": "Realme C15 (Power Blue, 4GB RAM, 64GB Storage)",
+    "brand": "realme",
+    "id": 16063
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50i (Mint Green, 4GB RAM+64GB Storage) - 6.5\" inch Large Display | 5000mAh Battery",
+    "brand": "realme",
+    "id": 16064
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50A (Oxygen Blue , 4GB RAM + 64 GB Storage) Helio G85 Processor | 6000 mAh Battery",
+    "brand": "realme",
+    "id": 16065
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50i (Mint Green, 2GB RAM+32GB Storage) - 6.5\" inch Large Display | 5000mAh Battery",
+    "brand": "realme",
+    "id": 16066
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50A (Oxygen Blue , 4GB RAM + 128 GB Storage) Helio G85 Processor | 6000 mAh Battery",
+    "brand": "realme",
+    "id": 16067
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50 (Speed Black, 6GB RAM+128GB Storage) Helio G96 Processor | 50MP AI Triple Camera | 120Hz Ultra Smooth Display",
+    "brand": "realme",
+    "id": 16068
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50i (Carbon Black, 4GB RAM+64GB Storage) - 6.5\" inch Large Display | 5000mAh Battery",
+    "brand": "realme",
+    "id": 16069
+  },
+  {
+    "brandId": 206,
+    "title": "realme narzo 50A Prime (Flash Blue, 4GB RAM+64GB Storage) FHD+ Display | 50MP AI Triple Camera (No Charger Variant)",
+    "brand": "realme",
+    "id": 16070
+  },
+  {
+    "brandId": 206,
+    "title": "realme C11 2021 (Cool Blue, 4GB RAM, 64GB Storage), Medium (RMX3231)",
+    "brand": "realme",
+    "id": 16071
+  },
+  {
+    "brandId": 207,
+    "title": "Motorola a10 Dual Sim keypad Mobile with 1750 mAh Battery, Expandable Storage Upto 32GB, Wireless FM with Recording - Rose Gold",
+    "brand": "motorola",
+    "id": 16072
+  },
+  {
+    "brandId": 207,
+    "title": "Motorola a70 keypad Mobile Dual Sim with Expandable Memory Upto 32GB,Camera, 2.4 inch Screen with 1750 mAh Battery, Rose Gold",
+    "brand": "motorola",
+    "id": 16073
+  },
+  {
+    "brandId": 207,
+    "title": "MOTOROLA G40 Fusion (Dynamic Gray, 64 GB) (4 GB RAM)",
+    "brand": "motorola",
+    "id": 16074
+  },
+  {
+    "brandId": 207,
+    "title": "MOTOROLA e32s (Slate Gray, 4GB RAM 64GB Storage)",
+    "brand": "motorola",
+    "id": 16075
+  },
+  {
+    "brandId": 207,
+    "title": "Motorola Razr (Black, 128 GB) (6 GB RAM)",
+    "brand": "motorola",
+    "id": 16076
+  },
+  {
+    "brandId": 207,
+    "title": "MOTOROLA G60 (Soft Silver, 128 GB) (6 GB RAM)",
+    "brand": "motorola",
+    "id": 16077
+  },
+  {
+    "brandId": 207,
+    "title": "MOTOROLA G40 Fusion (Dynamic Gray, 6 GB RAM, 128GB Storage)",
+    "brand": "motorola",
+    "id": 16078
+  },
+  {
+    "brandId": 207,
+    "title": "MOTOROLA e32s (Misty Silver, 4GB RAM 64GB Storage)",
+    "brand": "motorola",
+    "id": 16079
+  },
+  {
+    "brandId": 207,
+    "title": "Motorola a10 Dual Sim keypad Mobile with 1750 mAh Battery, Expandable Storage Upto 32GB, Wireless FM with Recording - Dark Blue",
+    "brand": "motorola",
+    "id": 16080
+  },
+  {
+    "brandId": 208,
+    "title": "Huawei P20 Pro (Blue, 6GB RAM, 128GB Storage)",
+    "brand": "huawei",
+    "id": 16081
+  },
+  {
+    "brandId": 208,
+    "title": "Huawei P50 Pro 4G (Black, 8GB RAM, 256GB Storage)",
+    "brand": "huawei",
+    "id": 16082
+  },
+  {
+    "brandId": 208,
+    "title": "Huawei P50 Pro 4G (Cocoa Gold, 8GB RAM, 256GB Storage)",
+    "brand": "huawei",
+    "id": 16083
+  },
+  {
+    "brandId": 208,
+    "title": "Huawei Honor Holly (Black/White 16 GB) (1 GB RAM)",
+    "brand": "huawei",
+    "id": 16084
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus 5T (Midnight Black, 6GB RAM, 64GB Storage)",
+    "brand": "oneplus",
+    "id": 16085
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16086
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16087
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord CE 2 5G (Bahamas Blue, 8GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16088
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord 2T 5G (Jade Fog, 8GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16089
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord CE 2 5G (Gray Mirror, 8GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16090
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)",
+    "brand": "oneplus",
+    "id": 16091
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 8GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16092
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)",
+    "brand": "oneplus",
+    "id": 16093
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)",
+    "brand": "oneplus",
+    "id": 16094
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus 10R 5G (Forest Green, 12GB RAM, 256GB Storage, 80W SuperVOOC)",
+    "brand": "oneplus",
+    "id": 16095
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus Nord 2T 5G (Jade Fog, 12GB RAM, 256GB Storage)",
+    "brand": "oneplus",
+    "id": 16096
+  },
+  {
+    "brandId": 209,
+    "title": "OnePlus 10R 5G (Forest Green, 8GB RAM, 128GB Storage, 80W SuperVOOC)",
+    "brand": "oneplus",
+    "id": 16097
+  }
+]

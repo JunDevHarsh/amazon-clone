@@ -2,7 +2,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import AddressTab from "./AddressTab";
 import LocationModal from "./LocationModal";
-import SearchBar from "./SearchBar";
+import SearchBar from "../SearchBar/SearchBar";
 import LanguageTab from "./LanguageTab";
 import UserLogin from "./UserLogin";
 import Cart from "./Cart";
