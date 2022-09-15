@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LocationModal = ({ showModal, closeModal }) => {
   const handlePinCodeValue = (e) => {
     e.preventDefault();
@@ -28,9 +30,11 @@ const LocationModal = ({ showModal, closeModal }) => {
                 Select a delivery location to see product availability and
                 delivery options
               </p>
-              <button className="py-1 w-full text-sm font-normal text-black text-center tracking-wide bg-[#FFD814] hover:bg-[#F7CA00] border-[#FCD200] hover:border-[#F2C200] border-[1px] border-solid rounded-md">
-                Sign in to see your addresses
-              </button>
+              <Link href="/auth/sign-in">
+                <a className="py-1 block text-sm font-normal text-black text-center tracking-wide bg-[#FFD814] hover:bg-[#F7CA00] border-[#FCD200] hover:border-[#F2C200] border-[1px] border-solid rounded-md">
+                  Sign in to see your addresses
+                </a>
+              </Link>
               <div className="grid grid-cols-[1fr_auto_1fr] gap-2 items-center my-2 w-full">
                 <div className="w-full border-t border-t-solid border-t-[#ebecef]"></div>
                 <p className="text-xs tracking-wider text-gray-500">

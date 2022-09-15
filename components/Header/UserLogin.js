@@ -2,7 +2,28 @@ import Link from "next/link";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const UserLogin = () => {
-  const accountMenu = ["Your Account", "Your Orders", "Your Save items"];
+  const accountMenu = [
+    {
+      title: "Your Account",
+      href: "account",
+    },
+    {
+      title: "Your Orders",
+      href: "account/your-orders",
+    },
+    {
+      title: "Login & Security",
+      href: "account/login-and-security",
+    },
+    {
+      title: "Payment Options",
+      href: "account/payment-option",
+    },
+    {
+      title: "Amazon-clone Balance",
+      href: "account/amazon-clone-balance",
+    },
+  ];
   return (
     <div className="relative border-[1px] border-transparent hover:border-white rounded-[0.25rem] py-[2px] px-2 flex flex-col items-center cursor-pointer dropdown-btn">
       <p className="text-white font-normal text-sm">Hello, Sign In</p>
@@ -30,15 +51,18 @@ const UserLogin = () => {
           </div>
         </div>
         <hr className="mt-1 border-b-[0.5px] border-b-solid border-b-[#f3f3f3]" />
-        <div className="w-full">
-          <h3 className="font-normal text-black">Your Account</h3>
+        <div className="w-full px-2">
+          <h3 className="font-medium text-black text-base tracking-wider mt-2">
+            Your Account
+          </h3>
           <ul className="w-full">
             {accountMenu.map((account) => (
-              <li
-                className="text-[#6a6a6a] text-[13px] font-normal my-2 cursor-pointer hover:text-[#e47911] hover:underline"
-                key={account}
-              >
-                {account}
+              <li className="w-full my-1" key={account.title}>
+                <Link href={`/${account.href}`}>
+                  <a className="block text-[#6a6a6a] text-[13px] font-normal hover:text-[#e47911] hover:underline">
+                    {account.title}
+                  </a>
+                </Link>
               </li>
             ))}
           </ul>
