@@ -9,14 +9,7 @@ import Header from "../../components/Header/Header";
 import MenuBar from "../../components/MenuBar/MenuBar";
 
 const PaymentOption = () => {
-  const [cards, setCards] = useState([
-    {
-      card_number: "1234 1234 1234 1234",
-      user_name: "User Name 1",
-      expiry_month: "9",
-      expiry_year: "2022",
-    },
-  ]);
+  const [cards, setCards] = useState([]);
   const cardRef = useRef(null);
   const cardNumberRef = useRef(null);
   const cardNameRef = useRef(null);

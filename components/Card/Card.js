@@ -11,16 +11,27 @@ const Card = ({
   handleCardVisibility,
   setCards,
 }) => {
-  const CURRENT_YEAR = new Date().getFullYear();
-  const CURRENT_MONTH = new Date().getMonth();
+  const CURRENT_TIME = new Date();
+  const CURRENT_YEAR = CURRENT_TIME.getFullYear();
+  const CURRENT_MONTH = CURRENT_TIME.getMonth();
+  const CURRENT_DATE = CURRENT_TIME.getDate();
 
   const handleAddNewCard = () => {
     let { value: cardNumber } = cardNumberRef.current;
     let { value: cardName } = cardNameRef.current;
     let { value: cardMonth } = cardMonthRef.current;
     let { value: cardYear } = cardYearRef.current;
+    let expiryDate = new Date();
     if (cardNumber === "" || cardName === "") return;
     if (cardNumber.length < 19) return;
+    expiryDate.setFullYear(cardYear, cardMonth - 1, CURRENT_DATE);
+    if (
+      expiryDate.getMonth() < CURRENT_MONTH &&
+      expiryDate.getFullYear() === CURRENT_YEAR
+    ) {
+      alert("Hello there\n Your card is expired.");
+      return;
+    }
     setCards((prev) => [
       ...prev,
       {
@@ -30,7 +41,7 @@ const Card = ({
         expiry_year: cardYear,
       },
     ]);
-    handleCardVisibility();
+    return handleCardVisibility();
   };
 
   const handleCardNumber = (event) => {
@@ -74,6 +85,7 @@ const Card = ({
   return (
     <div
       ref={cardRef}
+      style={{ display: "block" }}
       className="w-full my-4 bg-white border border-[#d5d9d9] border-solid rounded-md overflow-hidden shadow-[0_0_14px_0_#0f111180]"
     >
       {/* Header */}
@@ -122,11 +134,12 @@ const Card = ({
           <div className="relative">
             <select
               ref={cardMonthRef}
+              defaultValue={CURRENT_MONTH + 1}
               className="text-black text-sm font-normal tracking-wider pl-3 pr-4 py-1 border border-[#adb1b8] hover:border-[#a2a6ac] border-solid rounded-md bg-gradient-to-b from-[#f7f8fa] to-[#e7e9ec] hover:from-[#e7eaf0] hover:to-[#d9dce1] cursor-pointer outline-none"
             >
-              {[...Array(12 - CURRENT_MONTH)].map((_, idx) => (
-                <option key={idx + 1} value={CURRENT_MONTH + idx + 1}>
-                  {CURRENT_MONTH + idx + 1}
+              {[...Array(12)].map((_, idx) => (
+                <option key={idx + 1} value={idx + 1}>
+                  {idx + 1}
                 </option>
               ))}
             </select>
